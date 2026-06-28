@@ -5,9 +5,8 @@ variables.py
 A comprehensive guide to Python variables for beginners.
 This file covers all types of variables, their usage, and best practices.
 
-Author: Your Name
-Date: 2024
-Version: 1.0
+Author: Abhishek
+Date: 2026
 """
 
 # =============================================================================

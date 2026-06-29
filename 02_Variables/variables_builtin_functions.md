@@ -13,6 +13,7 @@
 
 ---
 
+
 ## How to read this handbook (for beginners)
 
 Each example follows the same simple rhythm so nothing is left as a mystery:
@@ -41,6 +42,8 @@ A few terms you'll see a lot:
 
 ---
 
+
+
 ## Table of Contents
 
 **A–B:** [abs](#abs) · [aiter](#aiter) · [all](#all-🔧) · [anext](#anext) · [any](#any-🔧) · [ascii](#ascii) · [bin](#bin) · [bool](#bool) · [breakpoint](#breakpoint) · [bytearray](#bytearray) · [bytes](#bytes)
@@ -62,6 +65,8 @@ A few terms you'll see a lot:
 **T–Z:** [tuple](#tuple) · [type](#type-🔧) · [vars](#vars) · [zip](#zip-🔧) · [\_\_import\_\_](#__import__)
 
 ---
+
+
 
 # A–B
 

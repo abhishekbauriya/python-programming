@@ -10,7 +10,6 @@
 > Real-world use case (Problem → Solution → walkthrough) · Mini-project (with full solution).**
 >
 > Target: **Python 3.10+**.
-
 ---
 
 

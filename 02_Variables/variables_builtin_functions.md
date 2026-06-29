@@ -1,6 +1,6 @@
 # Python Built-in Functions — Beginner-Friendly DevOps Edition
 
-> **`python-for-devops` · Chapter 02 · Variables & Built-in Functions**
+> **`python-programming` · Chapter 02 · Variables & Built-in Functions**
 >
 > All **71 Python built-in functions**, rewritten for people who are **new to Python**
 > but know cloud/DevOps. Every function includes:

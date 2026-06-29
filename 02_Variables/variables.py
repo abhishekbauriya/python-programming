@@ -42,6 +42,7 @@ age = 25  # Creates a variable 'age' containing the integer 25
 # ✅ my_name = "Alice" (correct - use underscores for multiple words)
 
 
+
 # =============================================================================
 # SECTION 2: DATA TYPES IN PYTHON
 # =============================================================================
@@ -71,6 +72,7 @@ print(type(student_count))   # Output: <class 'int'>
 # ❌ student_count = "100"  (This is a STRING, not integer!)
 # ✅ student_count = 100    (This is an integer)
 
+
 # -------------------------------------------------------------------------
 # 2.2 FLOAT (float) - Numbers with decimal points
 # -------------------------------------------------------------------------
@@ -93,6 +95,7 @@ print(type(pi))              # Output: <class 'float'>
 # COMMON MISTAKES TO AVOID:
 # ❌ price = 19,99  (ERROR - comma is not a decimal point in Python)
 # ✅ price = 19.99  (Correct - use dot for decimal)
+
 
 # -------------------------------------------------------------------------
 # 2.3 STRING (str) - Text data
@@ -124,6 +127,7 @@ print(type(greeting))        # Output: <class 'str'>
 # ✅ text = 'It\'s'     (Correct - escaped quote)
 # ✅ text = "It's"      (Correct - different quote types)
 
+
 # -------------------------------------------------------------------------
 # 2.4 BOOLEAN (bool) - True or False values
 # -------------------------------------------------------------------------
@@ -147,6 +151,7 @@ print(type(is_student))      # Output: <class 'bool'>
 # ❌ is_student = "True"  (This is a STRING, not boolean!)
 # ✅ is_student = True    (Correct - boolean True)
 
+
 # -------------------------------------------------------------------------
 # 2.5 NONE (NoneType) - Represents absence of value
 # -------------------------------------------------------------------------
@@ -169,6 +174,7 @@ print(type(middle_name))     # Output: <class 'NoneType'>
 # ❌ result = none      (ERROR - must be capitalized)
 # ❌ result = "None"    (This is a STRING, not None!)
 # ✅ result = None      (Correct)
+
 
 # -------------------------------------------------------------------------
 # 2.6 LIST (list) - Ordered, mutable collection
@@ -198,6 +204,7 @@ last_fruit = fruits[-1]      # "cherry" (last item using negative index)
 # ❌ third = fruits[3]           (ERROR - only 3 items, max index is 2)
 # ✅ fruits = ["apple", "banana", "cherry"]  (Correct)
 
+
 # -------------------------------------------------------------------------
 # 2.7 TUPLE (tuple) - Ordered, IMMUTABLE collection
 # -------------------------------------------------------------------------
@@ -220,6 +227,7 @@ print(type(coordinates))     # Output: <class 'tuple'>
 # COMMON MISTAKES TO AVOID:
 # ❌ single = (42)       (This is just 42 in parentheses, NOT a tuple!)
 # ✅ single = (42,)      (Correct - comma makes it a tuple)
+
 
 # -------------------------------------------------------------------------
 # 2.8 DICTIONARY (dict) - Key-value pairs
@@ -250,6 +258,7 @@ person_age = person.get("age")      # 25 (safer method)
 # ❌ person = {"name": "Alice", "name": "Bob"}  (Duplicate keys!)
 # ✅ person = {"name": "Alice", "age": 25}  (Correct)
 
+
 # -------------------------------------------------------------------------
 # 2.9 SET (set) - Unordered collection of UNIQUE items
 # -------------------------------------------------------------------------
@@ -271,6 +280,7 @@ print(type(unique_numbers))   # Output: <class 'set'>
 # COMMON MISTAKES TO AVOID:
 # ❌ empty = {}          (This creates an EMPTY DICTIONARY, not set!)
 # ✅ empty = set()       (Correct way to create empty set)
+
 
 
 # =============================================================================
@@ -314,9 +324,11 @@ temp = 98.6                 # ⚠️ Okay for short scripts
 body_temperature = 98.6     # ✅ Better - More specific
 
 
+
 # =============================================================================
 # SECTION 4: VARIABLE ASSIGNMENT TECHNIQUES
 # =============================================================================
+
 
 # -------------------------------------------------------------------------
 # 4.1 Multiple Assignment (same value to multiple variables)
@@ -331,6 +343,7 @@ print(x, y, z)               # Output: 0 0 0
 
 # WHY USE IT: To initialize multiple variables to the same starting value
 # WHEN TO USE IT: When setting up default values or resetting counters
+
 
 # -------------------------------------------------------------------------
 # 4.2 Multiple Assignment (different values)
@@ -352,6 +365,7 @@ print(age)                   # Output: 25
 # ❌ a, b = 1, 2, 3       (ERROR - 3 values for 2 variables)
 # ❌ a, b, c = 1, 2        (ERROR - 2 values for 3 variables)
 # ✅ a, b, c = 1, 2, 3     (Correct - equal counts)
+
 
 # -------------------------------------------------------------------------
 # 4.3 Swapping Variables (Python's special way)
@@ -378,12 +392,14 @@ print(f"After: a={a}, b={b}")    # Output: After: a=20, b=10
 # Python does it in one line!
 
 
+
 # =============================================================================
 # SECTION 5: TYPE CONVERSION (Type Casting)
 # =============================================================================
 
 # Sometimes you need to change one type to another
 # SYNTAX: new_variable = target_type(original_value)
+
 
 # -------------------------------------------------------------------------
 # 5.1 Converting TO Integer
@@ -406,6 +422,7 @@ bool_false_to_int = int(False)         # False → 0
 # ❌ int("3.14")      (ERROR - can't directly convert float string)
 # ✅ int(float("3.14"))  (Correct - convert to float first)
 
+
 # -------------------------------------------------------------------------
 # 5.2 Converting TO Float
 # -------------------------------------------------------------------------
@@ -417,6 +434,7 @@ bool_false_to_int = int(False)         # False → 0
 int_to_float = float(42)               # 42 → 42.0
 string_to_float = float("3.14")        # "3.14" → 3.14
 bool_to_float = float(True)            # True → 1.0
+
 
 # -------------------------------------------------------------------------
 # 5.3 Converting TO String
@@ -444,6 +462,7 @@ message = f"I am {age} years old"  # Automatically converts!
 print(message)  # Output: I am 25 years old
 
 
+
 # =============================================================================
 # SECTION 6: CHECKING VARIABLE TYPES
 # =============================================================================
@@ -469,6 +488,7 @@ print(isinstance(my_var, (int, float)))  # Output: True (either int OR float)
 # - isinstance handles inheritance better
 # - Can check against multiple types at once
 # - More Pythonic and recommended
+
 
 
 # =============================================================================

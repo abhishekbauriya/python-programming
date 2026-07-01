@@ -92,4 +92,4 @@ SPECIAL    : :=  (walrus)   @ (matmul)   * ** (unpack)   x if c else y (ternary)
 
 ---
 
-Happy learning! ⭐ Star the repo if it helped you understand operators.
+Happy learning! ⭐ Star the repo if it helped you understand operators..
